@@ -8,13 +8,13 @@
 <body>
     <h1>Welcome to Laundry Wallah/Laundry Mart</h1>
     <h4><strong>to Laundry Wallah / Laundry Mart, your one-step solution for all your laundry needs. our dedication team ensures top-notch service, providing a hassle-free and efficient laundry expreience . With a focus on quality and custemer satisfaction, we take care of your graments as if they our own.</strong></h4>
-    <hr>
+    
 
    <section>
     <img src="washing.jpg" alt="Laundry Wala" height="250" width="250">
     </section>
 
-    <hr>
+    
     <section>
     <h2>Our Service</h2>
     <ul>
@@ -45,22 +45,22 @@
         </table>
     </section>
 
-     <section >
-        <h2>Book Now</h2>
-        <form style="white-space: nowrap;">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" >
+     <section>
+    <h2>Book Now</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" >
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" name="phone" >
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" 
+               title="Please enter a 10-digit phone number">
 
-    <input type="submit" value="Submit">
-</form>
-    </section>
-
+        <input type="submit" value="Submit">
+    </form>
+</section>
     <section>
       <p>Contact us at :<a href="basudebananda98@gmail.com">basudebananda98@gmail.com </a></p>
 
